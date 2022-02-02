@@ -1,0 +1,7 @@
+C:\Users\CTC\Desktop\pr\ABC\ABC\obj\Debug\ABC_UI.csproj.AssemblyReference.cache
+C:\Users\CTC\Desktop\pr\ABC\ABC\obj\Debug\ABC.Login.resources
+C:\Users\CTC\Desktop\pr\ABC\ABC\obj\Debug\ABC.Properties.Resources.resources
+C:\Users\CTC\Desktop\pr\ABC\ABC\obj\Debug\ABC_UI.csproj.GenerateResource.cache
+C:\Users\CTC\Desktop\pr\ABC\ABC\obj\Debug\ABC_UI.csproj.CoreCompileInputs.cache
+C:\Users\CTC\Desktop\pr\ABC\ABC\obj\Debug\ABC.exe
+C:\Users\CTC\Desktop\pr\ABC\ABC\obj\Debug\ABC.pdb
