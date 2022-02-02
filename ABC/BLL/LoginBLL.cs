@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL;
-//using DAL.DAO;
+using DAL.DAO;
 
 namespace BLL
 {
@@ -14,19 +14,19 @@ namespace BLL
         {
             var userDetails = new List<string>();
             List<tbl_user_master> userList = new List<tbl_user_master>();
-            userList = CustomerDAO.GetCustomers();
-            foreach (tbl_customer customer in customerList)
+            userList = LoginDAO.GetTbl_User_Masters();
+            foreach (tbl_user_master user in userList)
             {
-                if (un == customer.customer_username && pw == customer.customer_password)
+                if (uname == user.user_name && pword == user.password)
                 {
-                    customerDetails.Add(customer.customer_id.ToString());
-                    customerDetails.Add(customer.customer_first_name);
-                    customerDetails.Add(customer.customer_last_name);
+                    userDetails.Add(user.user_id.ToString());
+                    userDetails.Add(user.f_name);
+                    userDetails.Add(user.l_name);
 
                 }
             }
-            return customerDetails;
+            return userDetails;
         }
     }
-    }
+    
 }

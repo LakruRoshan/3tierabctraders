@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.DAO
 {
-    class LoginDAO : ABCDataConnectionContext
+    public class LoginDAO : ABCDataConnectionContext
     {
         public static List<tbl_user_master> GetTbl_User_Masters()
         {

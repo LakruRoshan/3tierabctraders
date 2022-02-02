@@ -5,3 +5,9 @@ C:\Users\CTC\Desktop\pr\ABC\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 C:\Users\CTC\Desktop\pr\ABC\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\CTC\Desktop\pr\ABC\DAL\obj\Debug\DAL.dll
 C:\Users\CTC\Desktop\pr\ABC\DAL\obj\Debug\DAL.pdb
+C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\DAL\bin\Debug\DAL.dll.config
+C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\DAL\bin\Debug\DAL.dll
+C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\DAL\bin\Debug\DAL.pdb
+C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\DAL\obj\Debug\DAL.dll
+C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\DAL\obj\Debug\DAL.pdb
