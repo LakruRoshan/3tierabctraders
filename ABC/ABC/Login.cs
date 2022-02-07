@@ -11,17 +11,18 @@ using System.Windows.Forms;
 namespace ABC
 {
 
-    public partial class Login : Form
+    public partial class frmLogin : Form
     {
         int userId;
         int userRoleId;
-        public Login()
+        public frmLogin()
         {
             InitializeComponent();
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
+            timer1.Start();
             DateTime dateTime = DateTime.Now;
             lbldatetime.Text = dateTime.ToString();
         }
@@ -30,15 +31,11 @@ namespace ABC
         {
             Application.Exit();
         }
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string uname = txtUname.Text;
             string pword = txtPword.Text;
             string usrDetails = " ";
-
-            //MessageBox.Show("1");
-
             if (uname.Trim() == "" && pword.Trim() == "")
             {
                 MessageBox.Show("Please Enter Username and Password to Login...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -52,15 +49,12 @@ namespace ABC
                     userRoleId = Convert.ToInt32(uDetails[1]);
                     usrDetails = string.Join(" ", uDetails[2], uDetails[3]);
                 }
-
-               
                 if (userRoleId == 1)
                 {
-                    MessageBox.Show("Wellcome" + usrDetails);
+                    MessageBox.Show("Wellcome" +" "+ usrDetails);
                     frmAdminDashboard adminpanel = new frmAdminDashboard();
                     this.Hide();
                     adminpanel.Show();
-                    ;
                 }
                 else if(userRoleId == 2)
                 {
@@ -84,6 +78,14 @@ namespace ABC
             this.Hide();
             cusregisterfrm.Show();
 ;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            
+            DateTime dateTime = DateTime.Now;
+            lbldatetime.Text = dateTime.ToString();
+            timer1.Start();
         }
     }
 }

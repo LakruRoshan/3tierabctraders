@@ -63,9 +63,149 @@ namespace ABC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1218712_customers_group_team_user_user_group_icon {
+            get {
+                object obj = ResourceManager.GetObject("1218712_customers_group_team_user_user group_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2730378_car_flash_furious_inkcontober_icon {
             get {
                 object obj = ResourceManager.GetObject("2730378_car_flash_furious_inkcontober_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2730378_car_flash_furious_inkcontober_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("2730378_car_flash_furious_inkcontober_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3558118_car_delivery_food_kitchen_mobile_icon {
+            get {
+                object obj = ResourceManager.GetObject("3558118_car_delivery_food_kitchen_mobile_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4016104_watch_cart_smartwatch_icon {
+            get {
+                object obj = ResourceManager.GetObject("4016104_watch_cart_smartwatch_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4118396_automobile_body_car_doors_part_icon {
+            get {
+                object obj = ResourceManager.GetObject("4118396_automobile_body_car_doors_part_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4288598_analysis_analytics_chart_data_pie_icon {
+            get {
+                object obj = ResourceManager.GetObject("4288598_analysis_analytics_chart_data_pie_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4288598_analysis_analytics_chart_data_pie_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("4288598_analysis_analytics_chart_data_pie_icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4313131_advertisement_announcement_broadcast_car_news_icon {
+            get {
+                object obj = ResourceManager.GetObject("4313131_advertisement_announcement_broadcast_car_news_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4313131_advertisement_announcement_broadcast_car_news_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("4313131_advertisement_announcement_broadcast_car_news_icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _49616_bill_invoice_method_payment_sales_icon {
+            get {
+                object obj = ResourceManager.GetObject("49616_bill_invoice_method_payment_sales_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5422819_car_electric_electrocar_truck_vehicle_icon {
+            get {
+                object obj = ResourceManager.GetObject("5422819_car_electric_electrocar_truck_vehicle_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5998360_adult_asian_avatar_elder_male_icon {
+            get {
+                object obj = ResourceManager.GetObject("5998360_adult_asian_avatar_elder_male_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6372974_account_avatar_log_in_login_register_icon {
+            get {
+                object obj = ResourceManager.GetObject("6372974_account_avatar_log in_login_register_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8468097_agent_halloween_japanese_man_ninja_icon {
+            get {
+                object obj = ResourceManager.GetObject("8468097_agent_halloween_japanese_man_ninja_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

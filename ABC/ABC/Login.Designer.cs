@@ -1,7 +1,7 @@
 ﻿
 namespace ABC
 {
-    partial class Login
+    partial class frmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,8 @@ namespace ABC
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,6 +40,7 @@ namespace ABC
             this.btnSignup = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.lbldatetime = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -141,7 +143,11 @@ namespace ABC
             this.lbldatetime.TabIndex = 8;
             this.lbldatetime.Text = "Date Time";
             // 
-            // Login
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -161,7 +167,7 @@ namespace ABC
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Login";
+            this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
@@ -182,6 +188,7 @@ namespace ABC
         private System.Windows.Forms.Button btnSignup;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label lbldatetime;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

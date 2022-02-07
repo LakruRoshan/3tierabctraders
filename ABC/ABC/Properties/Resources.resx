@@ -118,7 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="2730378_car_flash_furious_inkcontober_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2730378_car_flash_furious_inkcontober_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4313131_advertisement_announcement_broadcast_car_news_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4313131_advertisement_announcement_broadcast_car_news_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8468097_agent_halloween_japanese_man_ninja_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8468097_agent_halloween_japanese_man_ninja_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="2730378_car_flash_furious_inkcontober_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2730378_car_flash_furious_inkcontober_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5422819_car_electric_electrocar_truck_vehicle_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5422819_car_electric_electrocar_truck_vehicle_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4016104_watch_cart_smartwatch_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4016104_watch_cart_smartwatch_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1218712_customers_group_team_user_user group_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1218712_customers_group_team_user_user group_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4313131_advertisement_announcement_broadcast_car_news_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4313131_advertisement_announcement_broadcast_car_news_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4288598_analysis_analytics_chart_data_pie_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4288598_analysis_analytics_chart_data_pie_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4118396_automobile_body_car_doors_part_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4118396_automobile_body_car_doors_part_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6372974_account_avatar_log in_login_register_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6372974_account_avatar_log in_login_register_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="49616_bill_invoice_method_payment_sales_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\49616_bill_invoice_method_payment_sales_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3558118_car_delivery_food_kitchen_mobile_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3558118_car_delivery_food_kitchen_mobile_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5998360_adult_asian_avatar_elder_male_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5998360_adult_asian_avatar_elder_male_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4288598_analysis_analytics_chart_data_pie_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4288598_analysis_analytics_chart_data_pie_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

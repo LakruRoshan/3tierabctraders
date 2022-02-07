@@ -10,6 +10,8 @@ namespace BLL
 {
     public class LoginBLL
     {
+        public static object lstUserData { get; set; }
+
         public static List<string>UserValidate(string uname, string pword)
         {
             var userDetails = new List<string>();

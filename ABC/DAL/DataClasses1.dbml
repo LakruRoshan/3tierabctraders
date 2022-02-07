@@ -25,6 +25,7 @@
       <Column Name="l_name" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
       <Column Name="address" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
       <Column Name="is_active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="nic_no" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
       <Association Name="tbl_user_master_tbl_invoice_master" Member="tbl_invoice_masters" ThisKey="user_id" OtherKey="customer_id" Type="tbl_invoice_master" />
       <Association Name="tbl_role_master_tbl_user_master" Member="tbl_role_master" ThisKey="role_id" OtherKey="role_id" Type="tbl_role_master" IsForeignKey="true" />
     </Type>

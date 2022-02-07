@@ -64,6 +64,17 @@ namespace DAL.DAO
             var searchResult = (from usr in db.tbl_user_masters where usr.f_name.Contains(keyWord) || usr.l_name.Contains(keyWord) select usr).ToList();
             return searchResult;
         }
+        public static List<tbl_user_master> searchUsersBYNIC(string nicno)
+        {
+            var searchResult = (from usr in db.tbl_user_masters where usr.nic_no.Contains(nicno) select usr).ToList();
+            return searchResult;
+        }
+        public static List<tbl_user_master> LoadUserData()
+        {
+
+            List<tbl_user_master> userdata = (from usr in db.tbl_user_masters select usr).ToList();
+            return userdata;
+        }
     }
 }
 

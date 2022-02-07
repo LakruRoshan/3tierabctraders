@@ -504,6 +504,8 @@ namespace DAL
 		
 		private System.Nullable<bool> _is_active;
 		
+		private string _nic_no;
+		
 		private EntitySet<tbl_invoice_master> _tbl_invoice_masters;
 		
 		private EntityRef<tbl_role_master> _tbl_role_master;
@@ -528,6 +530,8 @@ namespace DAL
     partial void OnaddressChanged();
     partial void Onis_activeChanging(System.Nullable<bool> value);
     partial void Onis_activeChanged();
+    partial void Onnic_noChanging(string value);
+    partial void Onnic_noChanged();
     #endregion
 		
 		public tbl_user_master()
@@ -697,6 +701,26 @@ namespace DAL
 					this._is_active = value;
 					this.SendPropertyChanged("is_active");
 					this.Onis_activeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_nic_no", DbType="VarChar(50)")]
+		public string nic_no
+		{
+			get
+			{
+				return this._nic_no;
+			}
+			set
+			{
+				if ((this._nic_no != value))
+				{
+					this.Onnic_noChanging(value);
+					this.SendPropertyChanging();
+					this._nic_no = value;
+					this.SendPropertyChanged("nic_no");
+					this.Onnic_noChanged();
 				}
 			}
 		}

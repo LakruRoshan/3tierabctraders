@@ -16,5 +16,20 @@ namespace ABC
         {
             InitializeComponent();
         }
+
+        private void frmCustomerDashboard_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+            DateTime dateTime = DateTime.Now;
+            lbldatetime.Text = dateTime.ToString();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+           
+            DateTime dateTime = DateTime.Now;
+            lbldatetime.Text = dateTime.ToString();
+            timer1.Start();
+        }
     }
 }

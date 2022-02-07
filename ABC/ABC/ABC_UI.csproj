@@ -58,6 +58,12 @@
     <Compile Include="CustomerDashboard.Designer.cs">
       <DependentUpon>CustomerDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerList.Designer.cs">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerRegister.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerDashboard.resx">
       <DependentUpon>CustomerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerList.resx">
+      <DependentUpon>CustomerList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerRegister.resx">
       <DependentUpon>CustomerRegister.cs</DependentUpon>
@@ -119,6 +128,23 @@
       <Project>{a5b7936e-88a1-43f1-888b-12b5ad92bc91}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4288598_analysis_analytics_chart_data_pie_icon1.png" />
+    <None Include="Resources\4016104_watch_cart_smartwatch_icon.png" />
+    <None Include="Resources\4288598_analysis_analytics_chart_data_pie_icon.png" />
+    <None Include="Resources\5422819_car_electric_electrocar_truck_vehicle_icon.png" />
+    <None Include="Resources\2730378_car_flash_furious_inkcontober_icon %281%29.png" />
+    <None Include="Resources\49616_bill_invoice_method_payment_sales_icon.png" />
+    <None Include="Resources\3558118_car_delivery_food_kitchen_mobile_icon.png" />
+    <None Include="Resources\8468097_agent_halloween_japanese_man_ninja_icon.png" />
+    <None Include="Resources\5998360_adult_asian_avatar_elder_male_icon.png" />
+    <None Include="Resources\1218712_customers_group_team_user_user group_icon.png" />
+    <None Include="Resources\4118396_automobile_body_car_doors_part_icon.png" />
+    <None Include="Resources\4313131_advertisement_announcement_broadcast_car_news_icon1.png" />
+    <None Include="Resources\4313131_advertisement_announcement_broadcast_car_news_icon.png" />
+    <Content Include="Resources\5422802_car_electric_electrocar_tesla_icon.ico" />
+    <None Include="Resources\6372974_account_avatar_log in_login_register_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
