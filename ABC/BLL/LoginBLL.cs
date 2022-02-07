@@ -20,8 +20,10 @@ namespace BLL
                 if (uname == user.user_name && pword == user.password)
                 {
                     userDetails.Add(user.user_id.ToString());
+                    userDetails.Add(user.role_id.ToString());
                     userDetails.Add(user.f_name);
                     userDetails.Add(user.l_name);
+                    
 
                 }
             }

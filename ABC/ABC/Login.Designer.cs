@@ -115,6 +115,7 @@ namespace ABC
             this.btnSignup.TabIndex = 6;
             this.btnSignup.Text = "SignUp";
             this.btnSignup.UseVisualStyleBackColor = false;
+            this.btnSignup.Click += new System.EventHandler(this.btnSignup_Click);
             // 
             // btnExit
             // 

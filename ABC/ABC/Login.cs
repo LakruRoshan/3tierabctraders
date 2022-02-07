@@ -14,6 +14,7 @@ namespace ABC
     public partial class Login : Form
     {
         int userId;
+        int userRoleId;
         public Login()
         {
             InitializeComponent();
@@ -48,12 +49,41 @@ namespace ABC
                 foreach (var uDetail in uDetails)
                 {
                     userId = Convert.ToInt32(uDetails[0]);
-                    usrDetails = string.Join(" ", uDetails[1], uDetails[2]);
-                    MessageBox.Show("success");
-                    //userDetails = string.Join(",", adminDetails.ToArray());
+                    userRoleId = Convert.ToInt32(uDetails[1]);
+                    usrDetails = string.Join(" ", uDetails[2], uDetails[3]);
                 }
 
+               
+                if (userRoleId == 1)
+                {
+                    MessageBox.Show("Wellcome" + usrDetails);
+                    frmAdminDashboard adminpanel = new frmAdminDashboard();
+                    this.Hide();
+                    adminpanel.Show();
+                    ;
+                }
+                else if(userRoleId == 2)
+                {
+                    MessageBox.Show("Wellcome" +"  "+ usrDetails);
+                    frmCustomerDashboard customerpanel = new frmCustomerDashboard();
+                    this.Hide();
+                    customerpanel.Show();
+                }
+                else
+                {
+                    MessageBox.Show("You havent Registerd Yet..please Register" ,"Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+
+
             }
+        }
+
+        private void btnSignup_Click(object sender, EventArgs e)
+        {
+            frmCustomerRegister cusregisterfrm = new frmCustomerRegister();
+            this.Hide();
+            cusregisterfrm.Show();
+;
         }
     }
 }
