@@ -25,3 +25,4 @@ C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\ABC\obj\Debug\ABC_UI.csproj.CoreComp
 C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\ABC\obj\Debug\ABC_UI.csproj.CopyComplete
 C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\ABC\obj\Debug\ABC.exe
 C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\ABC\obj\Debug\ABC.pdb
+C:\Users\CTC\Desktop\pr\3tierabctraders\ABC\ABC\obj\Debug\ABC.frmUserRegister.resources

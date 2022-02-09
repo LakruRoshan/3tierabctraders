@@ -14,13 +14,15 @@ namespace DAL.DTO
 
 		public string _password { get; set; }
 
-		public int _role_id { get; set; }
+		//public int _role_id { get; set; }
 
 		public string _f_name { get; set; }
 
 		public string _l_name { get; set; }
 
 		public string _address { get; set; }
+		public bool _is_active { get; set; }
+		public string _nic_no { get; set; }
 
 
 	}
